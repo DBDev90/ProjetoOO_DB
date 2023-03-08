@@ -33,5 +33,29 @@ namespace ProjetoOO_DB
         {
             return Valor;
         }
+
+        public void setId(int id)
+        {
+            if (id > 0)
+            {
+                Id = id;
+            }
+        }
+
+        public void setDescricao(string descricao)
+        {
+            if (descricao != "")
+            {
+                Descricao = descricao;
+            }
+        }
+
+        public void setValor(decimal valor)
+        {
+            if (valor > 0)
+            {
+                Valor = valor;
+            }
+        }
     }
 }
